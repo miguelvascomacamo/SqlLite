@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sqllite.miguel.sqllite.MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:layout_margin="3dp"
+       >
+
+       <TextView
+           android:id="@+id/lbname"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Nome"
+           android:textSize="15dp"
+           android:textStyle="bold"
+           android:textColor="#000"
+           tools:layout_editor_absoluteX="0dp"
+           tools:layout_editor_absoluteY="33dp" />
+
+       <EditText
+           android:id="@+id/editname"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:ems="10"
+           android:inputType="textPersonName"
+           tools:layout_editor_absoluteX="162dp"
+           tools:layout_editor_absoluteY="6dp" />
+
+
+
+       <TextView
+           android:id="@+id/lbsurname"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Apelido"
+           android:textSize="15dp"
+           android:textStyle="bold"
+           android:textColor="#000"
+           tools:layout_editor_absoluteX="0dp"
+           tools:layout_editor_absoluteY="84dp" />
+
+
+       <EditText
+           android:id="@+id/editsurname"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:ems="10"
+           android:inputType="textPersonName"
+           tools:layout_editor_absoluteX="162dp"
+           tools:layout_editor_absoluteY="77dp" />
+
+
+       <TextView
+           android:id="@+id/textView3"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Notas"
+           android:textSize="15dp"
+           android:textStyle="bold"
+           android:textColor="#000"
+           tools:layout_editor_absoluteX="0dp"
+           tools:layout_editor_absoluteY="165dp" />
+
+       <EditText
+           android:id="@+id/editmarks"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:ems="10"
+           android:inputType="textPersonName"
+           tools:layout_editor_absoluteX="170dp"
+           tools:layout_editor_absoluteY="146dp" />
+
+
+       <TextView
+           android:id="@+id/textid"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="ID"
+           android:textSize="15dp"
+           android:textStyle="bold"
+           android:textColor="#000"
+           tools:layout_editor_absoluteX="0dp"
+           tools:layout_editor_absoluteY="165dp" />
+
+       <EditText
+           android:id="@+id/edit_id"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:ems="10"
+           android:inputType="textPersonName"
+           tools:layout_editor_absoluteX="170dp"
+           tools:layout_editor_absoluteY="146dp" />
+
+
+       <Button
+           android:id="@+id/btnSave"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:background="#cf677d"
+           android:text="Save"
+           android:textColor="@android:color/white"
+           android:textSize="20dp"
+           android:textStyle="bold" />
+
+       <Button
+           android:id="@+id/btnVerdata"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+           android:background="#57a2ab"
+           android:text="Ver tudo"
+           android:textColor="@android:color/white"
+           android:textSize="20dp"
+           android:textStyle="bold" />
+
+       <Button
+           android:id="@+id/btnEditar"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+           android:background="#57a2ab"
+           android:text="Editar"
+           android:textColor="@android:color/white"
+           android:textSize="20dp"
+           android:textStyle="bold" />
+
+
+
+
+   </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
